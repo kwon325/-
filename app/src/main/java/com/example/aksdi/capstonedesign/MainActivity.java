@@ -17,11 +17,28 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
     }
-    public void gologin(View view)
+    public void login(View view)
     {
         Intent login_intent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(login_intent);
 
-        finish();
+    }
+    public void signup(View view)
+    {
+        Intent login_intent = new Intent(MainActivity.this, SignupActivity.class);
+        startActivity(login_intent);
+
+    }
+    public void post(View view)
+    {
+        Intent login_intent = new Intent(MainActivity.this, SignupActivity.class);
+        startActivity(login_intent);
+
+    }
+    public void mypage(View view)
+    {
+        Intent login_intent = new Intent(MainActivity.this, SignupActivity.class);
+        startActivity(login_intent);
+
     }
 }
