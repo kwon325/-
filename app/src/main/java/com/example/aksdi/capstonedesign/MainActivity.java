@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void post(View view)
     {
-        Intent login_intent = new Intent(MainActivity.this, SignupActivity.class);
+        Intent login_intent = new Intent(MainActivity.this, PostActivity.class);
         startActivity(login_intent);
 
     }
     public void mypage(View view)
     {
-        Intent login_intent = new Intent(MainActivity.this, SignupActivity.class);
+        Intent login_intent = new Intent(MainActivity.this, MypageActivity.class);
         startActivity(login_intent);
 
     }

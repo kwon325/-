@@ -30,6 +30,8 @@
         android:layout_width = "80dp"
         android:layout_height = "match_parent"
         android:text = "SIGNIN"
+        android:background="?attr/actionModeSplitBackground"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
         android:onClick="login_done" />
 
     <Button
@@ -37,6 +39,8 @@
         android:layout_width="80dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="?attr/actionModeSplitBackground"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
         android:onClick="signup_go" />
 
 </LinearLayout>
